@@ -31,7 +31,7 @@ Blockly.Blocks['math_change'] = {
 };
 ```
 
-## 区块颜色
+## 区块颜色（Colour）
 
 // `JSON` 中的 `colour` 属性定义了区块的基本色（`primary colour`）
 
@@ -42,7 +42,7 @@ Blockly.Blocks['math_change'] = {
 }
 ```
 
-## 语句连接
+## 语句连接（Statement）
 
 区块可通过 `nextStatement` 和 `previousStatement` 连接器连接成串。一个区块通常都会包含一个前连接点和一个后连接点。
 
@@ -61,7 +61,7 @@ Blockly.Blocks['math_change'] = {
 
 包含前连接的区块不能有输出连接，反之亦然。
 
-## 区块输出
+## 区块输出（Output）
 
 区块可以包含一个输出，该输出连接值输入，这种区块通常称为值块（`value blocks`）
 
@@ -73,7 +73,7 @@ Blockly.Blocks['math_change'] = {
 }
 ```
 
-## 区块输入
+## 区块输入（Input）
 
 输入由一串文本（`labels`）和字段值（`fields`）组成，区块可以有一个或多个输入。
 
